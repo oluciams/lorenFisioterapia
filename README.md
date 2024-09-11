@@ -35,7 +35,9 @@ El sistema está diseñado para gestionar de manera óptima las citas y la infor
 2. Instalar las dependencias del proyecto (para Front-end y Back-end)
 3. Ejecutar el proyecto:
 ## Repositorios
-- [Repositorio](https://github.com/oluciams)
+- [Repositorio 1](https://github.com/JessiGM)
+- [Repositorio 2](https://github.com/JohnhattanMesaGarcia)
+- [Repositorio 3](https://github.com/oluciams)
 
 ## Contribuciones
 
