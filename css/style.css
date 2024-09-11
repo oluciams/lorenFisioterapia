@@ -1,0 +1,349 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+.header {  
+  background-color:rgb(238,238,238);  
+  height: 22.5rem;
+  width: 100%;
+  z-index: 999;
+}
+
+.header > .container {
+  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.logo {
+  height: 6.5rem;
+  width: 12rem;  
+}
+
+.logo_imagen {  
+ height: 7rem;
+}
+
+.header_menu {
+  align-items: center;  
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_link {
+  color: rgb(114, 106, 177); 
+  font-weight: bold;
+  margin: 0.3rem;  
+  padding: 0.4rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.menu_link:hover {  
+  background-color: rgb(154, 149, 193);
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.5rem;
+}
+
+.main {  
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.main_titulo {
+  font-style: italic;
+  text-align: center;
+  padding: 1.5rem;  
+}
+
+.services {  
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services_card {
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.25);  
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+  height: 14rem;
+  margin: 1rem; 
+  padding: 1rem; 
+  width: 14rem;   
+}
+
+.card_boton {
+  border-radius: 0.2rem;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);  
+  color: white;
+  font-weight: bold;
+  height: 2rem;
+  margin-top: 1.5rem;
+  padding: 0.6rem;
+  text-decoration: none;
+  text-align: center;
+  width: 10rem;
+  background-color: rgb(189, 183, 228);
+}
+
+.card_img {
+  height: 8.5rem;
+  border-radius: 0.2rem;
+  width: 14rem;
+}
+
+.sobre_empresa_img {
+  height: 12rem;
+  width: 26rem;
+}
+
+.informacion_empresa {
+  align-items: center;
+  background-color: rgb(218, 214, 244);  
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem; 
+  padding-top: 1rem;  
+}
+
+.empresa_historia{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.historia_body { 
+  padding: 1.4rem; 
+}
+
+.historia_titulo {
+  font-size: 1.4rem; 
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.historia_texto {
+  font-size: 1.2rem;
+  text-align: justify;
+  padding: 1rem 3.2rem;
+}
+
+.historia_img {
+  height: 14rem;
+  margin-right: 0;
+  padding: 0 4rem;  
+}
+
+.empresa_blog{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.blog_contenido {  
+  font-size: 1.2rem;
+  padding:0 4rem;  
+}
+
+.blog_titulo {  
+  padding: 1rem 0;
+}
+
+.blog_lista {
+  line-height: 2rem ;
+}
+
+.blog_texto {
+  padding: 1rem 0 ;
+  display: none;
+}
+
+.empresa_citas{  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+}
+
+.citas_titulo {
+  padding-bottom: 0.5rem;
+}
+
+.citas_texto {
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+  /* width: 30rem;  */
+}
+
+.citas_boton {  
+  background-color: rgb(111, 101, 176);
+  border-radius: 0.2rem;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);  
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  /* height: 2rem; */
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;  
+  width: 12rem;
+}
+
+.testimonio_title {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.testimonios {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonios_card {  
+  height: 8rem;
+  margin: 1rem;  
+  text-align: center;
+  width: 11rem;
+}
+
+.testimonio_card_img {
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+}
+
+.footer {
+  background-color: rgb(238,238,238);
+  color: rgb(85, 81, 81);
+  height: 19rem;
+}
+
+.footer_informacion { 
+  align-items: center;
+  color: rgb(85,81,81);
+  display: flex;
+  flex-direction: column;  
+  font-size: 1.3rem;  
+  justify-content: space-between;
+  padding: 1.1rem;
+  text-align: center;
+}
+
+.siguenos_img {
+  width: 2.5rem;
+}
+
+.footer_copyright {
+  border-top: 1px solid rgb(138, 135, 135);
+  padding-top: 1rem;  
+  text-align: center;
+}
+
+@media screen and (min-width: 768px){  
+  .header { 
+    height: 11rem; 
+  }
+  .header > .container {
+    justify-content: center;    
+  }
+  .header_menu {  
+    flex-direction: row;     
+  }
+  .siguenos_img {
+    width: 1.8rem;
+}
+
+}
+
+@media screen and (min-width: 1024px){ 
+  .header {
+    height: 6.5rem;    
+  }
+  .header > .container {
+    align-items: center; 
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header_menu {  
+    flex-direction: row;   
+    margin-right:1rem;
+  }
+  .menu_link {
+    color: #726ab1;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1rem;  
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+  .services {    
+    flex-wrap: nowrap;
+    justify-content:space-around;   
+  }
+  .informacion_empresa {
+    align-items: normal;
+    background-color: rgb(218, 214, 244);    
+    flex-direction: row;    
+  }
+  .empresa_historia{   
+    flex-direction: column;
+    align-items: center;
+  }
+  .historia_texto {
+    font-size: 1.3rem;    
+    padding: 1rem 6rem;
+  }
+  .historia_img {    
+    padding: 1rem 4rem;
+  }
+  .blog_texto {
+    padding: 1rem 0;
+    display: block;
+  }
+  .empresa_citas{   
+    padding: 0rem 3.5rem; 
+  }   
+  .testimonio_title {
+    font-size: 1.4rem;    
+  }
+  .testimonios {
+    justify-content: space-around;
+  }
+  .testimonio_card_img {
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+  }
+  .footer {
+    height: 9rem;
+  }
+  .footer_informacion { 
+    align-items: center;
+    color: rgb(85,81,81);
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1rem;  
+    justify-content: space-around;  
+    padding: 0.5rem;
+    text-align: center;
+  }
+}
