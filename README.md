@@ -39,6 +39,14 @@ El sistema está diseñado para gestionar de manera óptima las citas y la infor
 - [Repositorio 2](https://github.com/JohnhattanMesaGarcia)
 - [Repositorio 3](https://github.com/oluciams)
 
+
+```sh
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+
+```
+
 ## Contribuciones
 
 Si deseas contribuir, por favor realiza un fork del proyecto, crea una rama con tus cambios y abre un Pull Request.
