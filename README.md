@@ -44,7 +44,7 @@ El sistema está diseñado para gestionar de manera óptima las citas y la infor
 1. Abrir proyecto desde Editor de Código de preferencia
 2. Navegar a carpeta env (entorno virtual)
 3. Desde la terminal del Editor de Código Activar entorno virtual desde la carpeta Scripts con el comando "activate"
-4. Ya estando activo el entorno virtual, ejecutar el programa desde la terminal con el comando "python conexion_bd.py"
+4. Ya estando activo el entorno virtual, ingresar a la carpeta python y desde allí ejecutar el programa desde la terminal con el comando "python conexion_bd.py"
 
 ## Contribuciones
 
