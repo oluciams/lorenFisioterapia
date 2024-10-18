@@ -39,6 +39,13 @@ El sistema está diseñado para gestionar de manera óptima las citas y la infor
 - [Repositorio 2](https://github.com/JohnhattanMesaGarcia)
 - [Repositorio 3](https://github.com/oluciams)
 
+## Ejecución de Python para conexión a la base de datos
+
+1. Abrir proyecto desde Editor de Código de preferencia
+2. Navegar a carpeta env (entorno virtual)
+3. Desde la terminal del Editor de Código Activar entorno virtual desde la carpeta Scripts con el comando "activate"
+4. Ya estando activo el entorno virtual, ejecutar el programa desde la terminal con el comando "python conexion_bd.py"
+
 ## Contribuciones
 
 Si deseas contribuir, por favor realiza un fork del proyecto, crea una rama con tus cambios y abre un Pull Request.
