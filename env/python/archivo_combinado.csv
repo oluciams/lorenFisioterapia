@@ -1,0 +1,75 @@
+appointment_code,appointment_type,appointment_duration,appointment_price
+CITA001,Cita de Valoración Inicial,01:00:00,100000.000
+CITA002,	Cita de Revisión,00:45:00,80000.000
+CITA003,Cita de Seguimiento,00:50:00,90000.000
+CITA004,Cita de Terapia Física,00:45:00,85000.000
+CITA005,Cita de Alta,00:30:00,50000.000
+employee_id,employee_type_id,employee_first_name,employee_second_name,employee_last_name,employee_second_last_name,employee_birthdate,employee_phone_number,employee_address
+2035520785,CE,Gina,Anthony,Calhoun,,1992-12-07,+336472591523,"15055 Alejandro Fort Suite 192, North Jamie, VA 16647"
+1108181360,PA,Julie,,Norris,Cantu,1959-08-12,+573181435710,"1754 Anthony Fords, Matthewport, OH 83851"
+6567583853,PA,Mark,,Miller,Ferguson,1964-09-16,+444310061048,"35833 Kelly Manor, Port Davidtown, CA 92535"
+1467273396,CC,Charles,Robert,Pierce,,1953-06-13,+573014978516,"513 Chen Route Apt. 660, Haydenmouth, IL 49206"
+3229758289,CC,Kelly,Thomas,Clements,Hogan,1962-08-13,+573208989083,"762 Reynolds Gateway, Petersonhaven, MI 61113"
+2318091294,PA,Crystal,,Fischer,Phillips,2000-04-05,+336272076338,"34148 Roger Terrace Suite 173, Ramireztown, KY 88121"
+9494529625,CC,Billy,,Fox,,1970-09-24,+444624311327,"4391 Chad Greens Suite 851, Port Frank, LA 37561"
+employee_id,appointment_code
+employee_id,package_code
+package_code,package_name,session_duration,session_price,number_of_sessions
+FIS001,Rehabilitación de Miembros Inferiores,01:00:00,80000.000,10
+FIS002,Terapia de Rehabilitación de Hombros,00:45:00,75000.000,8
+FIS004,Fisioterapia Respiratoria,00:40:00,70000.000,6
+FIS005,Rehabilitación Postoperatoria de Rodilla,01:00:00,90000.000,15
+FIS006,Terapia de Movilidad para Adultos Mayores,00:45:00,65000.000,10
+FIS007,Rehabilitación de Lesiones Deportivas,01:00:00,100000.000,8
+FIS008,Terapia de Rehabilitación de Columna Vertebral,00:55:00,95000.000,10
+FIS009,Terapia de Fortalecimiento Muscular,00:50:00,85000.000,10
+FIS010,Rehabilitación de Miembros Superiores,00:45:00,75000.000,12
+FIS003,Terapia para Dolor Lumbar,00:50:00,85000.000,12
+user_id,user_type_id,user_first_name,user_second_name,user_last_name,user_second_last_name,user_birthdate,user_phone_number,user_address,insurance_entity
+3661752953,CC,Megan,Katherine,Fisher,,1978-07-23,+573056730894,"5938 Juan Throughway Apt. 948, West Corey, TX 43780",Particular
+3153674802,CC,Thomas,Craig,Hamilton,Carr,2005-11-24,+528100297927,"8408 Christopher Ville Suite 097, Johnmouth, CA 25544",Suramericana
+6690432842,CC,Sally,,Pratt,Thomas,1980-09-19,+573077781979,"8714 Mann Plaza, Lisaside, PA 72227",Particular
+2484683607,PA,Briana,Sean,Carlson,,1982-12-09,+573019869156,20947 Christopher Throughway East Sandra CO 92162,Suramericana
+1612629915,CC,Sandra,Amber,Myers,,1962-07-10,+573130788402,"96947 Keller Squares, Christopherville, OR 83095",Sura EPS
+4640919340,CC,Matthew,James,Smith,Nelson,1991-10-07,+573064639702,"6012 Brandon Ports, North Davidborough, OK 16189",Suramericana
+9906022055,PA,Peter,,Hooper,Johnson,1945-03-28,+573182878286,"173 Sharon Brooks, Oliverview, 09934",Particular
+5488143527,CE,Deborah,,White,Gordon,1946-06-12,+335098172211,"45792 Tammy Centers Apt. 258, Davidmouth, HI 02231",Suramericana
+8550058526,PA,Thomas,,Carroll,Romero,1964-12-17,+573082102885,"428 Stephen Common Suite 084, East Kathleen, MI 80472",Suramericana
+7471274704,CE,Keith,,Arroyo,Schultz,1986-01-11,+573106673932,"6109 Holly Estate Apt. 376, Johnsonshire, WI 87296",Suramericana
+3243043383,PA,Jenna,Gabriel,Brown,,1974-02-21,+573034687163,"900 Nguyen Villages Suite 063, Port Jessicatown, TX 55221",Suramericana
+9785794059,CC,Leslie,Jason,Love,Smith,1999-10-03,+573030982055,"19344 Craig Walk, Burtontown, NV 15676",Suramericana
+9553023619,CC,Michelle,Dennis,Meyer,Curtis,1967-05-21,+573196783546,"0003 Grant Lakes, Port Karafort, SD 60619",Particular
+7231831612,PA,Danielle,Nathan,Medina,Clark,1983-09-21,+573050536920,"45551 Chan Camp, West Frankshire, MN 52247",Particular
+8392208116,PA,Veronica,,Wilson,Cross,1947-01-19,+573057696023,"6546 Cory Orchard, Rogersmouth, NJ 15706",Particular
+2321338481,CC,Holly,Ronald,Turner,Navarro,2004-08-18,+442253535677,"961 Lindsey Flat, North Paul, MO 73439",Colsanitas
+5364627682,CC,April,,Burns,Richards,1989-12-29,+573019290667,"3492 Lee Crescent, Port Michelletown, NC 59694",Suramericana
+9147068601,CC,Karen,,Crawford,,1987-05-22,+573109471324,"213 Gray Plains, North Vanessa, FL 74413",Particular
+1848380706,CE,Richard,Erin,Rich,Simpson,2006-03-04,+573158494131,"3893 Matthew Summit Suite 508, Port Jonathan, FL 50177",Colsanitas
+1886927709,CC,Brandi,,Roman,,1949-07-11,+573073413969,"32040 Rivera Estates, Port Diana, NY 50600",Suramericana
+3786033877,PA,Rachel,Wayne,Berry,Gregory,1998-07-22,+573059729827,"634 Petersen Orchard, Lawsonbury, AK 86613",Suramericana
+7339150823,CC,Nicole,Joy,Turner,,1966-05-28,+573122777300,"6660 Danielle Crossroad Apt. 450, South Robertfort, PA 94504",Suramericana
+2083517651,CC,Christopher,Holly,Patrick,Gomez,1946-02-28,+573041613941,"0172 Antonio River Apt. 518, Jamesfort, AR 80470",Suramericana
+9367844954,CC,Jaclyn,Christina,Peck,Santos,1990-03-19,+525003843011,"64183 Kimberly Mills Suite 375, North Rachelton, KS 03994",Suramericana
+7999719244,CE,Shirley,Elizabeth,Armstrong,,1950-02-16,+521031305730,"412 Snow Manors Apt. 161, South Kimtown, NV 57004",Suramericana
+2433746868,CC,Steven,David,Miller,,1995-11-09,+573183065698,"9168 Williams Falls, South Jeffrey, KY 46651",Particular
+6687546828,CE,Luis,,Hawkins,,1980-08-02,+573126216190,"8978 Nelson Brook Apt. 912, Wrightport, WA 86958",Suramericana
+2560252374,CC,Adam,,Patterson,Williams,1969-12-11,+573011807078,"953 Walker Village, North April, MD 31119",Suramericana
+8637366734,CE,Nathaniel,Timothy,Perkins,,1944-10-27,+573169700289,"9026 Theresa Pass Apt. 237, East Jessica, 50912",Suramericana
+4242748097,PA,Michael,,Fuller,,1951-02-12,+527839571686,"957 Parker Forges, Lake Natasha, WA 63535",Suramericana
+1525948079,CC,Amy,Janet,Miller,,1971-02-11,+573185370754,"6030 Barber Gateway Suite 734, Emilyport, MI 75682",Particular
+4954088196,CE,Amber,,Hernandez,Johnson,1986-06-28,+573187363738,"03510 Stanton Manors, East Shane, MI 41389",Suramericana
+6941575966,PA,Gregory,Mark,Hatfield,,1969-10-22,+573097030989,"870 Robert Loaf Apt. 082, North Mark, HI 32848",Suramericana
+4492804994,CE,Sonya,Sue,Kemp,Newton,2000-10-25,+573093145175,"169 Christine Mount, New Carolyn, MA 97234",Particular
+8280907767,PA,Jessica,,Randolph,,1949-11-12,+573095429154,"3852 Morgan Unions, Blackburntown, NC 38279",Suramericana
+2331541158,PA,April,,Burton,Schmidt,1971-09-21,+529894988771,"USCGC Figueroa, FPO AA 38807",Suramericana
+3371047178,PA,Scott,Ashley,Taylor,Martinez,1951-12-20,+573034308778,"84576 Thomas Square Suite 707, Douglasfort, RI 28775",Suramericana
+9596654353,PA,Anthony,,Oneal,,1979-08-14,+332730465731,"Unit 1605 Box 0190, DPO AA 84436",Suramericana
+9984776356,CC,Holly,,Perez,Walton,1963-05-12,+573015253527,"5625 Wong Spur Suite 272, Davidburgh, MI 51471",Colsanitas
+8836776228,PA,Ronald,,Blair,Pope,1973-08-29,+529338184940,"USS Bullock, FPO AE 31175",Suramericana
+9151874556,CE,Cynthia,,Cox,,1989-11-14,+15736605067,"184 Jenkins Center Suite 977, Janetborough, KY 06036",Suramericana
+3924084986,CE,Bradley,,Smith,Pena,1953-04-27,+573060219706,"396 Shawn Junction Apt. 915, Amandamouth, AK 68919",Suramericana
+9624989565,CC,Bradley,Miguel,Clark,Warren,1956-07-18,+573018280422,"448 Scott Key Apt. 048, North Stevenmouth, MT 65195",Suramericana
+user_id,appointment_code
+user_id,employee_id
+user_id,package_code
+
